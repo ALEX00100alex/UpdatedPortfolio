@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="test.css" media="screen,projection" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Portfolio</title>
+    </head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+                <!-- <a class="brand-logo"><i class="material-icons" style="font-size: 50px; color: #F2EAD0;">language</i></a> -->
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"
+                        style="color: #F2EAD0;">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a style="color: #F2EAD0;" href="./index.html">Home</a></li>
+                    <li><a style="color: #F2EAD0;" href="./WhoAmI.html">About Me</a></li>
+                    <li><a class="dropdown-trigger" style="color: #F2EAD0;" id="searchPlanet"
+                            data-target="planet-dropdown" href="./portfolio.html">My Portfolio</a></li>
+                    <li><a style="color: #F2EAD0;" href="./contact.html">Contact</a></li>
+                </ul>
+        </nav>
+    </div>
+    <!-- For collapsible/small screen drop down -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./WhoAmI.html">About Me</a></li>
+        <li><a href="./searchpage.html">My Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    </div>
+    <!-- Main container starts here -->
+    <div class="container">
+        <!-- Top left card -->
+        <div class="row">
+            <div class="col s12 m12 l4">
+                <div class="card" style="margin-top: 25px;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./SSN.PNG">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4" style="font-size: 16px">Solar System
+                            Navigator using 3rd party API's for planetary information<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://github.com/sloanlacey/Project-1">GitHub Repo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Explore our Solar System!<i
+                                class="material-icons right">close</i></span>
+                        <p>My coding team wanted to share our love and enthusiasm for the solar system with anyone
+                            searching for information about the cosmos. We chose a responsive design for functional
+                            viewing and user interaction from any screen size. Users can easily navigate through
+                            beautiful and informative pages to discover accessible information for any level of study.
+                            The application also provides opportunities for users to customize their experience as they
+                            navigate through our solar system.</p>
+                    </div>
+                </div>
+            </div>
+            div class="row">
+            <div class="col s12 m12 l4">
+                <div class="card" style="margin-top: 325px;">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./Day Scheduler.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4" style="font-size: 16px"> A simple
+                            calendar application powered by JQuery<i class="material-icons right">more_vert</i></span>
+                        <p><a href="https://github.com/ALEX00100alex/DailyPlanner">GitHub Repo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Organize your day with this simple calendar
+                            app<i class="material-icons right">close</i></span>
+                        <p>Daily planner app that displays the current day at the top of the calendar, and time blocks
+                            for standard business hours that are color-coded to indicate whether the hour is in the
+                            past, present, or future. Also gives the user the ability to save an event.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <div class="card" style="margin-top: 0px;">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="./Weather Dashboard.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4" style="font-size: 16px">A dynamic
+                                weather dashboard using the OpenWeather API.<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://github.com/ALEX00100alex/WeatherDashboard">GitHub Repo</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Search for weather conditions anywhere on
+                                the planet.<i class="material-icons right">close</i></span>
+                            <p>An app that allows you to search the weather conditions for any city on Earth. Will
+                                display the city name, the date, an icon representation of weather conditions, the
+                                temperature, the humidity, the wind speed, and the UV index. Also includes a 5-day
+                                forecast that displays the date, an icon representation of weather conditions, the
+                                temperature, and the humidity.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Drop down from nav bar -->
+                <ul id="dropdown" class="dropdown-content">
+                    <li style="text-align: center;">
+                        <input type="input" style="width: 70%; font-size: 16px; border-color: #CCCCCC;" />
+                        <i class="material-icons" style="font-size: 16px; display:inline-flex;"
+                            id="searchBtn">search</i>
+                    </li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li class="placeholder" style="text-align: center;"></li>
+                </ul>
+            </div>
+
+            <!-- JS Links and CDN's -->
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+                </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
