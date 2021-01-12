@@ -3,7 +3,7 @@ Updated Portfolio Website
 
 ## Background 
 
-This is my first attempt at a mobile-reponsive Portfolio website, incorporating the following elements:
+This is my second attempt at a mobile-reponsive Portfolio website, incorporating the following elements:
 1. Grid System
 2. Bootstrap and Materialize components
 3. Javascript
