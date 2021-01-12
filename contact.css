@@ -1,0 +1,24 @@
+/* Adding margins and styling features to the "Contact" card */
+form {
+    margin-top: 100px;
+}   
+.card-header {
+    font-size: 40px; 
+    font-weight: bolder; 
+    color: rgb(54, 199, 151); 
+    background-color: white;
+}
+.form-group {
+    background-color: white
+}              
+/* Formatting for the submit button  */
+.btn-primary {
+    font-size: x-large;
+    margin-top: 30px; 
+    margin-bottom: 50px; 
+    margin-left: 375px; 
+    height: 75px; 
+    width: 150px; 
+    border:rgb(54, 199, 151); 
+    background-color: rgb(54, 199, 151);
+}

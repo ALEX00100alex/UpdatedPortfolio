@@ -1,0 +1,37 @@
+/* Background image for website */
+body { 
+    background-image: url(./matrix-2953869_1920.jpg)
+}
+/* Navigation bar styling */
+.navbar-brand {
+    background-color: lightgreen
+}
+/* Adding margins and styling features to the "About Me" card */
+.card {
+    margin-top: 100px
+}   
+.card-header {
+    font-size: 40px; 
+    font-weight: bolder; 
+    color: black; 
+    background-color: white;
+}
+.card-body {
+    background-color: white
+}  
+/* Ensuring thumbnail is in the right position and the text wraps around the image */
+.float-left {
+    padding-right: 10px;
+}
+.card-text {
+    text-overflow: ellipsis;
+}
+/* Social media buttons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
